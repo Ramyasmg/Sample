@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WatchHeaderCVCell" id="Yfp-Wa-SDj" customClass="WatchHeaderCVCell" customModule="Sample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="444" height="557"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="LpI-AN-zIO">
+                <rect key="frame" x="0.0" y="0.0" width="444" height="557"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zoebakes" translatesAutoresizingMaskIntoConstraints="NO" id="lSB-GA-FDQ">
+                        <rect key="frame" x="0.0" y="0.0" width="444" height="300"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="300" id="JTe-Cb-DZM"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2dI-19-i78">
+                        <rect key="frame" x="157" y="480" width="130" height="26"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="130" id="1Wq-4O-774"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
+                        <state key="normal" title="START WATCHING">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zoe                               Bakes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="02T-3e-tnh">
+                        <rect key="frame" x="172" y="320" width="100" height="69.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="wdz-Gc-Bnv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="italicSystem" pointSize="29"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S1E1 . Porch Party Pries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRz-W4-3rC">
+                        <rect key="frame" x="155" y="398" width="134" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="lSB-GA-FDQ" firstAttribute="leading" secondItem="LpI-AN-zIO" secondAttribute="leading" id="EAr-BR-JuB"/>
+                    <constraint firstItem="lSB-GA-FDQ" firstAttribute="top" secondItem="LpI-AN-zIO" secondAttribute="top" id="GZ2-ou-7p5"/>
+                    <constraint firstItem="02T-3e-tnh" firstAttribute="centerX" secondItem="LpI-AN-zIO" secondAttribute="centerX" id="LQf-6C-MQN"/>
+                    <constraint firstItem="cRz-W4-3rC" firstAttribute="top" secondItem="02T-3e-tnh" secondAttribute="bottom" constant="8.5" id="bm4-eL-gSg"/>
+                    <constraint firstAttribute="trailing" secondItem="lSB-GA-FDQ" secondAttribute="trailing" id="fwW-kc-Wba"/>
+                    <constraint firstItem="2dI-19-i78" firstAttribute="top" secondItem="lSB-GA-FDQ" secondAttribute="bottom" constant="180" id="lug-SK-jpj"/>
+                    <constraint firstItem="02T-3e-tnh" firstAttribute="top" secondItem="lSB-GA-FDQ" secondAttribute="bottom" constant="20" id="sk2-Js-t9f"/>
+                    <constraint firstItem="2dI-19-i78" firstAttribute="centerX" secondItem="LpI-AN-zIO" secondAttribute="centerX" id="vJz-e2-EvH"/>
+                    <constraint firstItem="cRz-W4-3rC" firstAttribute="centerX" secondItem="LpI-AN-zIO" secondAttribute="centerX" id="xho-qF-Fxt"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="444" height="557"/>
+            <point key="canvasLocation" x="269.56521739130437" y="113.50446428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="zoebakes" width="260" height="290"/>
+    </resources>
+</document>

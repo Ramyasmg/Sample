@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="25" id="eiH-TD-bqw" customClass="VerticalsTableViewCell" customModule="Sample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="137"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eiH-TD-bqw" id="nWa-se-HiP">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="137"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bag" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="DU9-q6-nfw">
+                        <rect key="frame" x="0.0" y="4.5" width="414" height="126"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eom-kq-hUx">
+                        <rect key="frame" x="132" y="52" width="150" height="33"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="FHY-sA-0bK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="onTapButton:" destination="eiH-TD-bqw" eventType="touchUpInside" id="7D9-wx-LYd"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Eom-kq-hUx" firstAttribute="centerY" secondItem="nWa-se-HiP" secondAttribute="centerY" id="9nQ-Gk-hAe"/>
+                    <constraint firstAttribute="trailing" secondItem="DU9-q6-nfw" secondAttribute="trailing" id="b8f-oD-7HJ"/>
+                    <constraint firstItem="DU9-q6-nfw" firstAttribute="leading" secondItem="nWa-se-HiP" secondAttribute="leading" id="dOo-Hs-6jH"/>
+                    <constraint firstAttribute="bottom" secondItem="DU9-q6-nfw" secondAttribute="bottom" constant="5" id="eZE-Qq-CEW"/>
+                    <constraint firstItem="DU9-q6-nfw" firstAttribute="top" secondItem="nWa-se-HiP" secondAttribute="top" constant="5" id="reg-Cd-V2i"/>
+                    <constraint firstItem="Eom-kq-hUx" firstAttribute="centerX" secondItem="nWa-se-HiP" secondAttribute="centerX" id="ytu-BU-rFb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="verticalButton" destination="Eom-kq-hUx" id="gvd-oz-z0s"/>
+                <outlet property="verticalImage" destination="DU9-q6-nfw" id="UX0-3Z-IyQ"/>
+            </connections>
+            <point key="canvasLocation" x="-10.144927536231885" y="98.772321428571431"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bag" catalog="system" width="128" height="128"/>
+    </resources>
+</document>

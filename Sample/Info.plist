@@ -62,5 +62,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>brandon-grotesque-bold-italic.ttf</string>
+		<string>brandon-grotesque-medium-italic.ttf</string>
+	</array>
 </dict>
 </plist>

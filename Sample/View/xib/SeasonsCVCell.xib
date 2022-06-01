@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="dRq-wo-yUQ" customClass="SeasonsCVCell" customModule="Sample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="421" height="298"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Ytw-hJ-BPn">
+                <rect key="frame" x="0.0" y="0.0" width="421" height="298"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0ek-Jo-DTV">
+                        <rect key="frame" x="0.0" y="0.0" width="421" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="adT-d3-AIr"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nrk-si-xg3">
+                        <rect key="frame" x="0.0" y="205" width="421" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="MtZ-m1-pfU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ELd-dM-UTD">
+                        <rect key="frame" x="0.0" y="225" width="0.0" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="unj-SS-58F"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="nrk-si-xg3" firstAttribute="top" secondItem="0ek-Jo-DTV" secondAttribute="bottom" constant="5" id="4Hi-DH-FlG"/>
+                    <constraint firstItem="0ek-Jo-DTV" firstAttribute="top" secondItem="Ytw-hJ-BPn" secondAttribute="top" id="EWa-EM-qcy"/>
+                    <constraint firstItem="ELd-dM-UTD" firstAttribute="leading" secondItem="Ytw-hJ-BPn" secondAttribute="leading" id="Tfm-ww-jgg"/>
+                    <constraint firstAttribute="trailing" secondItem="0ek-Jo-DTV" secondAttribute="trailing" id="Xbk-Ch-mNy"/>
+                    <constraint firstItem="ELd-dM-UTD" firstAttribute="top" secondItem="nrk-si-xg3" secondAttribute="bottom" id="gKj-MX-2eT"/>
+                    <constraint firstAttribute="trailing" secondItem="nrk-si-xg3" secondAttribute="trailing" id="uEQ-5T-vuD"/>
+                    <constraint firstItem="nrk-si-xg3" firstAttribute="leading" secondItem="Ytw-hJ-BPn" secondAttribute="leading" id="wOh-ej-szO"/>
+                    <constraint firstItem="0ek-Jo-DTV" firstAttribute="leading" secondItem="Ytw-hJ-BPn" secondAttribute="leading" id="yi4-xr-bAf"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="421" height="298"/>
+            <connections>
+                <outlet property="durationLabel" destination="ELd-dM-UTD" id="ENU-xt-Ntv"/>
+                <outlet property="episodeNameLabel" destination="nrk-si-xg3" id="uya-ch-MtS"/>
+                <outlet property="imageView" destination="0ek-Jo-DTV" id="1CL-Uz-oLF"/>
+            </connections>
+            <point key="canvasLocation" x="89.130434782608702" y="166.07142857142856"/>
+        </collectionViewCell>
+    </objects>
+</document>

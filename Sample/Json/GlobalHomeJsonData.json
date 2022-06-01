@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "apiVersion": "6.13.3",
+    "runtimeEnv": "production",
+    "servedFromCache": true
+  },
+  "data": {
+    "curation": {
+      "id": "fc7d6b60-2b87-11ec-a87b-136d7ea963cb",
+      "title": "Shop, Watch, Blog, Visit, & Workshops",
+      "description": "We are Magnolia Network, created by Chip and Joanna Gaines. Shop curated collection, stream shows, explore recipes and other creative workshops and visit the Silos.",
+      "route": "/home-temp-v3",
+      "platform": "web",
+      "taxonomyPath": "N/A",
+      "theme": "light",
+      "seoMetaTags": {
+        "title": "Shop, Watch, Blog, Visit, & Workshops - Magnolia",
+        "description": "We are Magnolia Network, created by Chip and Joanna Gaines. Shop curated collection, stream shows, explore recipes and other creative workshops and visit the S",
+        "og:title": "Shop, Watch, Blog, Visit, & Workshops",
+        "og:description": "We are Magnolia Network, created by Chip and Joanna Gaines. Shop curated collection, stream shows, explore recipes and other creative workshops and visit the S",
+        "og:image": "https://imgstore.sndimg.com/w_1200,h_630,f_auto,c_fill/magnolia/images/2f0a3132-80a3-427c-9bb3-e8d765711cd2.png",
+        "path": ""
+      },
+      "packages": [
+        {
+          "packageType": "heroCarousel",
+          "items": [
+            {
+              "contentType": "Product-collection",
+              "source": {
+                "id": "266715791411",
+                "type": "ProductCollection",
+                "title": "Long Weekend Sale - Up to 30% Off",
+                "description": "<p>Shop our sitewide sale, up to 30% off including furniture, rugs, wall art, lighting and more!</p>",
+                "image": {
+                  "url": "https://imgstore.sndimg.com/magnolia/images/30a795fe-ae0a-42c0-b356-dfd39e2b061d.jpg",
+                  "resolution": {
+                    "width": 2040,
+                    "height": 1360
+                  },
+                  "cloudinary": {
+                    "base": "https://imgstore.sndimg.com/",
+                    "path": "magnolia/images/30a795fe-ae0a-42c0-b356-dfd39e2b061d.jpg"
+                  },
+                  "altText": "summer-22-terracotta-table",
+                  "align": null,
+                  "sizemode": null,
+                  "type": null,
+                  "format": null
+                },
+                "path": "/shop/collection/266715791411/long-weekend-sale-up-to-30-off/",
+                "slug": "/shop/collection/266715791411/long-weekend-sale-up-to-30-off/",
+                "cta": "Shop Now",
+                "imageDesktop": {
+                  "url": "https://imgstore.sndimg.com/magnolia/images/30a795fe-ae0a-42c0-b356-dfd39e2b061d.jpg",
+                  "resolution": {
+                    "width": 2040,
+                    "height": 1360
+                  },
+                  "cloudinary": {
+                    "base": "https://imgstore.sndimg.com/",
+                    "path": "magnolia/images/30a795fe-ae0a-42c0-b356-dfd39e2b061d.jpg"
+                  },
+                  "altText": "summer-22-terracotta-table",
+                  "align": null,
+                  "sizemode": null,
+                  "type": null,
+                  "format": null
+                },
+                "imageMobile": null
+              }
+            }
+          ],
+          "options": {
+            "title": "curated",
+            "style": "large",
+            "theme": "light",
+            "block": "AssetsBlock",
+            "tileFieldsToShow": [
+              "type",
+              "title",
+              "desc"
+            ]
+          },
+          "modules": []
+        },
+        {
+          "packageType": "subNav",
+          "items": [
+            {
+              "contentType": "SubNavItem",
+              "source": {
+                "type": "SubNavItem",
+                "title": "Shop",
+                "description": "shop",
+                "image": {
+                  "url": "https://imgstore.sndimg.com/magnolia/images/68a5387b-9b7b-4452-afc1-1bc9370b9523.jpg",
+                  "resolution": {
+                    "width": 7917,
+                    "height": 5278
+                  },
+                  "cloudinary": {
+                    "base": "https://imgstore.sndimg.com/",
+                    "path": "magnolia/images/68a5387b-9b7b-4452-afc1-1bc9370b9523.jpg"
+                  },
+                  "altText": "summer-22-picnic",
+                  "align": null,
+                  "sizemode": null,
+                  "type": null,
+                  "format": null
+                },
+                "target": {
+                  "id": "0a4fb010-81f4-11eb-b68f-a96f340de3a1",
+                  "type": "LandingPage",
+                  "path": "/shop/",
+                  "slug": "shop",
+                  "apiPath": "/shop"
+                }
+              }
+            },
+            {
+              "contentType": "SubNavItem",
+              "source": {
+                "type": "SubNavItem",
+                "title": "WATCH",
+                "description": "Stream",
+                "image": {
+                  "url": "https://imgstore.sndimg.com/magnolia/images/beb9e177-d8a9-47a4-9af8-b1429fdb0bfd.png",
+                  "resolution": {
+                    "width": 2272,
+                    "height": 1126
+                  },
+                  "cloudinary": {
+                    "base": "https://imgstore.sndimg.com/",
+                    "path": "magnolia/images/beb9e177-d8a9-47a4-9af8-b1429fdb0bfd.png"
+                  },
+                  "altText": "watch app home",
+                  "align": null,
+                  "sizemode": null,
+                  "type": null,
+                  "format": null
+                },
+                "target": {
+                  "id": "10359fc0-76b5-11eb-b1c5-6b84fb4075e4",
+                  "type": "LandingPage",
+                  "path": "/watch/",
+                  "slug": "watch",
+                  "apiPath": "/watch"
+                }
+              }
+            },
+            {
+              "contentType": "SubNavItem",
+              "source": {
+                "type": "SubNavItem",
+                "title": "Workshops",
+                "description": "",
+                "image": {
+                  "url": "https://imgstore.sndimg.com/magnolia/images/5f80fdb7-0bed-4301-a799-b1b47b9981d7.jpg",
+                  "resolution": {
+                    "width": 5600,
+                    "height": 4000
+                  },
+                  "cloudinary": {
+                    "base": "https://imgstore.sndimg.com/",
+                    "path": "magnolia/images/5f80fdb7-0bed-4301-a799-b1b47b9981d7.jpg"
+                  },
+                  "altText": "arranging flowers",
+                  "align": null,
+                  "sizemode": null,
+                  "type": null,
+                  "format": null
+                },
+                "target": {
+                  "id": "2885b112-1b54-4b4e-ab9e-21958d109f14",
+                  "type": "StaticPage",
+                  "path": "/workshops/",
+                  "slug": "workshops"
+                }
+              }
+            },
+            {
+              "contentType": "SubNavItem",
+              "source": {
+                "type": "SubNavItem",
+                "title": "VISIT",
+                "description": "",
+                "image": {
+                  "url": "https://imgstore.sndimg.com/magnolia/images/e7834325-71fa-4fef-92ed-2e8856564660.jpg",
+                  "resolution": {
+                    "width": 4912,
+                    "height": 7360
+                  },
+                  "cloudinary": {
+                    "base": "https://imgstore.sndimg.com/",
+                    "path": "magnolia/images/e7834325-71fa-4fef-92ed-2e8856564660.jpg"
+                  },
+                  "altText": "pre spring visit",
+                  "align": null,
+                  "sizemode": null,
+                  "type": null,
+                  "format": null
+                },
+                "target": {
+                  "id": "76a7d330-a2c1-11eb-84ab-992234bcc070",
+                  "type": "LandingPage",
+                  "path": "/visit/",
+                  "slug": "visit",
+                  "apiPath": "/visit"
+                }
+              }
+            },
+            {
+              "contentType": "SubNavItem",
+              "source": {
+                "type": "SubNavItem",
+                "title": "Blog",
+                "description": "",
+                "image": {
+                  "url": "https://imgstore.sndimg.com/magnolia/images/d882be42-5158-416d-ae71-a07b3d19dfc1.jpg",
+                  "resolution": {
+                    "width": 2048,
+                    "height": 2048
+                  },
+                  "cloudinary": {
+                    "base": "https://imgstore.sndimg.com/",
+                    "path": "magnolia/images/d882be42-5158-416d-ae71-a07b3d19dfc1.jpg"
+                  },
+                  "altText": "Joanna Gaines's Sopaipillas with Honey",
+                  "align": null,
+                  "sizemode": null,
+                  "type": null,
+                  "format": null
+                },
+                "target": {
+                  "id": "8fa88de0-846e-11ec-a1b5-67de0ef2b0de",
+                  "type": "LandingPage",
+                  "path": "/blog/",
+                  "slug": "blog",
+                  "apiPath": "/blog"
+                }
+              }
+            }
+          ],
+          "options": {
+            "title": "App home menu ",
+            "subTitle": "",
+            "tileVariant": "navitemTitleDark",
+            "layoutPreset": "default2+default3",
+            "tileRatio": "default",
+            "titleAlignment": "left"
+          },
+          "modules": []
+        },
+        {
+          "packageType": "heroCarousel",
+          "items": [
+            {
+              "contentType": "Product-collection",
+              "source": {
+                "id": "64024324",
+                "type": "ProductCollection",
+                "title": "Up to 65% off Markdowns",
+                "description": "<p><span>Shop all discounted Magnolia products </span></p>",
+                "image": {
+                  "url": "https://imgstore.sndimg.com/magnolia/images/585c1e49-9d23-4680-a48a-6e1fecb05abf.jpg",
+                  "resolution": {
+                    "width": 1360,
+                    "height": 821
+                  },
+                  "cloudinary": {
+                    "base": "https://imgstore.sndimg.com/",
+                    "path": "magnolia/images/585c1e49-9d23-4680-a48a-6e1fecb05abf.jpg"
+                  },
+                  "altText": "markdowns",
+                  "align": null,
+                  "sizemode": null,
+                  "type": null,
+                  "format": null
+                },
+                "path": "/shop/collection/64024324/sale/",
+                "slug": "/shop/collection/64024324/sale/",
+                "cta": "shop now",
+                "imageDesktop": {
+                  "url": "https://imgstore.sndimg.com/magnolia/images/585c1e49-9d23-4680-a48a-6e1fecb05abf.jpg",
+                  "resolution": {
+                    "width": 1360,
+                    "height": 821
+                  },
+                  "cloudinary": {
+                    "base": "https://imgstore.sndimg.com/",
+                    "path": "magnolia/images/585c1e49-9d23-4680-a48a-6e1fecb05abf.jpg"
+                  },
+                  "altText": "markdowns",
+                  "align": null,
+                  "sizemode": null,
+                  "type": null,
+                  "format": null
+                },
+                "imageMobile": null
+              }
+            }
+          ],
+          "options": {
+            "title": "curated",
+            "style": "large",
+            "theme": "light",
+            "block": "AssetsBlock",
+            "tileFieldsToShow": [
+              "type",
+              "title",
+              "desc"
+            ]
+          },
+          "modules": []
+        }
+      ],
+      "errorCode": null,
+      "breadcrumbs": []
+    }
+  }
+}

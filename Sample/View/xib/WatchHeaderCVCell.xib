@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,59 +11,78 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WatchHeaderCVCell" id="Yfp-Wa-SDj" customClass="WatchHeaderCVCell" customModule="Sample" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="444" height="557"/>
+            <rect key="frame" x="0.0" y="0.0" width="262" height="522"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="LpI-AN-zIO">
-                <rect key="frame" x="0.0" y="0.0" width="444" height="557"/>
+                <rect key="frame" x="0.0" y="0.0" width="262" height="522"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zoebakes" translatesAutoresizingMaskIntoConstraints="NO" id="lSB-GA-FDQ">
-                        <rect key="frame" x="0.0" y="0.0" width="444" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="260" height="300"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="300" id="JTe-Cb-DZM"/>
                         </constraints>
                     </imageView>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2dI-19-i78">
-                        <rect key="frame" x="157" y="480" width="130" height="26"/>
+                        <rect key="frame" x="20" y="442" width="220" height="40"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="130" id="1Wq-4O-774"/>
+                            <constraint firstAttribute="width" constant="220" id="1Wq-4O-774"/>
+                            <constraint firstAttribute="height" constant="40" id="xQS-gU-dGj"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
-                        <state key="normal" title="START WATCHING">
+                        <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="14"/>
+                        <state key="normal" title="S T A R T   W A T C H I N G">
                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </state>
+                        <connections>
+                            <action selector="startWatchingTapped:" destination="Yfp-Wa-SDj" eventType="touchUpInside" id="LwJ-o7-hQ9"/>
+                        </connections>
                     </button>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zoe                               Bakes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="02T-3e-tnh">
-                        <rect key="frame" x="172" y="320" width="100" height="69.5"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zoe Bakes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="02T-3e-tnh">
+                        <rect key="frame" x="24" y="320" width="100" height="70"/>
                         <constraints>
+                            <constraint firstAttribute="height" constant="70" id="q5g-eL-Oti"/>
                             <constraint firstAttribute="width" constant="100" id="wdz-Gc-Bnv"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="italicSystem" pointSize="29"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="29"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S1E1 . Porch Party Pries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRz-W4-3rC">
-                        <rect key="frame" x="155" y="398" width="134" height="14.5"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRz-W4-3rC">
+                        <rect key="frame" x="30" y="398.5" width="200" height="23.5"/>
+                        <attributedString key="attributedText">
+                            <fragment content="S1E1 . Porch Party Pries">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" size="14" name="TimesNewRomanPSMT"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.5" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
                     <constraint firstItem="lSB-GA-FDQ" firstAttribute="leading" secondItem="LpI-AN-zIO" secondAttribute="leading" id="EAr-BR-JuB"/>
                     <constraint firstItem="lSB-GA-FDQ" firstAttribute="top" secondItem="LpI-AN-zIO" secondAttribute="top" id="GZ2-ou-7p5"/>
-                    <constraint firstItem="02T-3e-tnh" firstAttribute="centerX" secondItem="LpI-AN-zIO" secondAttribute="centerX" id="LQf-6C-MQN"/>
+                    <constraint firstItem="2dI-19-i78" firstAttribute="top" secondItem="cRz-W4-3rC" secondAttribute="bottom" constant="20" id="SF9-Lw-0Jm"/>
+                    <constraint firstAttribute="trailing" secondItem="02T-3e-tnh" secondAttribute="trailing" constant="24" id="TMJ-SY-5vd"/>
                     <constraint firstItem="cRz-W4-3rC" firstAttribute="top" secondItem="02T-3e-tnh" secondAttribute="bottom" constant="8.5" id="bm4-eL-gSg"/>
                     <constraint firstAttribute="trailing" secondItem="lSB-GA-FDQ" secondAttribute="trailing" id="fwW-kc-Wba"/>
-                    <constraint firstItem="2dI-19-i78" firstAttribute="top" secondItem="lSB-GA-FDQ" secondAttribute="bottom" constant="180" id="lug-SK-jpj"/>
+                    <constraint firstAttribute="trailing" secondItem="cRz-W4-3rC" secondAttribute="trailing" constant="30" id="i1R-Pa-XL3"/>
+                    <constraint firstItem="cRz-W4-3rC" firstAttribute="leading" secondItem="LpI-AN-zIO" secondAttribute="leading" constant="30" id="jYz-fK-fWx"/>
+                    <constraint firstItem="02T-3e-tnh" firstAttribute="leading" secondItem="LpI-AN-zIO" secondAttribute="leading" constant="24" id="rJW-Sq-Fi9"/>
                     <constraint firstItem="02T-3e-tnh" firstAttribute="top" secondItem="lSB-GA-FDQ" secondAttribute="bottom" constant="20" id="sk2-Js-t9f"/>
                     <constraint firstItem="2dI-19-i78" firstAttribute="centerX" secondItem="LpI-AN-zIO" secondAttribute="centerX" id="vJz-e2-EvH"/>
-                    <constraint firstItem="cRz-W4-3rC" firstAttribute="centerX" secondItem="LpI-AN-zIO" secondAttribute="centerX" id="xho-qF-Fxt"/>
                 </constraints>
             </collectionViewCellContentView>
-            <size key="customSize" width="444" height="557"/>
-            <point key="canvasLocation" x="269.56521739130437" y="113.50446428571428"/>
+            <size key="customSize" width="262" height="522"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="cRz-W4-3rC" id="Wqa-5F-psz"/>
+                <outlet property="imageView" destination="lSB-GA-FDQ" id="Cxa-LW-CwU"/>
+                <outlet property="titleLabel" destination="02T-3e-tnh" id="cYj-hL-0Yl"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="101.78571428571428"/>
         </collectionViewCell>
     </objects>
     <resources>

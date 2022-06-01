@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,22 @@
 		39325B042836B8B0002363D1 /* CorousalViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39325B032836B8B0002363D1 /* CorousalViewCollectionViewCell.swift */; };
 		39325B0828377E1A002363D1 /* Shop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39325B0728377E1A002363D1 /* Shop.storyboard */; };
 		39325B0B283780D2002363D1 /* ShopTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39325B0A283780D2002363D1 /* ShopTabBarController.swift */; };
+		39645969283FF79E00601A17 /* EpisodesDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39645968283FF79E00601A17 /* EpisodesDetailVC.swift */; };
+		3964596B28410F5000601A17 /* GlobalHomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3964596A28410F5000601A17 /* GlobalHomeVM.swift */; };
+		3964596D28410FB300601A17 /* Network Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3964596C28410FB300601A17 /* Network Manager.swift */; };
+		3964596F284111AB00601A17 /* GlobalHomeJsonData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3964596E284111AB00601A17 /* GlobalHomeJsonData.json */; };
+		396459712841131400601A17 /* GlobalHomeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396459702841131400601A17 /* GlobalHomeDataModel.swift */; };
+		3964597328422E0600601A17 /* WatchHomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3964597228422E0600601A17 /* WatchHomeVM.swift */; };
+		3964597528422E4E00601A17 /* WatchHomeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3964597428422E4E00601A17 /* WatchHomeDataModel.swift */; };
+		3964597D2843CE6600601A17 /* SeasonsCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3964597C2843CE6600601A17 /* SeasonsCVCell.xib */; };
+		3964597F2843CEAD00601A17 /* SeasonsCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3964597E2843CEAD00601A17 /* SeasonsCVCell.swift */; };
+		396459812843E12500601A17 /* ReUsableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396459802843E12500601A17 /* ReUsableView.swift */; };
+		396459832843E19900601A17 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396459822843E19900601A17 /* UITableView.swift */; };
+		396459852843E35B00601A17 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396459842843E35B00601A17 /* UICollectionView.swift */; };
+		39A977AE28450DA200414FA3 /* EpisodeDetailsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A977AD28450DA200414FA3 /* EpisodeDetailsVM.swift */; };
+		39A977B028450DB000414FA3 /* EpisodeDetailsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A977AF28450DB000414FA3 /* EpisodeDetailsDataModel.swift */; };
+		39AD38F728468A5C0053CBA7 /* EpisodeDetailsJsonData.json in Resources */ = {isa = PBXBuildFile; fileRef = 39AD38F628468A5C0053CBA7 /* EpisodeDetailsJsonData.json */; };
+		39AD38F92846A2150053CBA7 /* WatchHomeJsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = 39AD38F82846A2150053CBA7 /* WatchHomeJsonFile.json */; };
 		39C7EF91283BCC1C00113591 /* Watch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C7EF90283BCC1C00113591 /* Watch.storyboard */; };
 		39C7EF94283BD79800113591 /* WatchTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C7EF93283BD79800113591 /* WatchTabBarController.swift */; };
 		39C7EF97283BD90A00113591 /* WatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C7EF96283BD90A00113591 /* WatchViewController.swift */; };
@@ -28,6 +44,8 @@
 		39C7EFA5283BED4600113591 /* EpisodesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C7EFA4283BED4600113591 /* EpisodesTableViewCell.swift */; };
 		39C7EFAF283BF07C00113591 /* EpisodeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C7EFAE283BF07C00113591 /* EpisodeCollectionViewCell.swift */; };
 		39C7EFB3283BF17900113591 /* EpisodeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39C7EFB2283BF17900113591 /* EpisodeCollectionViewCell.xib */; };
+		39E345772845DABE0034927A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E345762845DABE0034927A /* Constants.swift */; };
+		963CA5CC5CD25CD8D5D6D039 /* Pods_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7096F4986E3F1AA2917534 /* Pods_Sample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +63,25 @@
 		39325B032836B8B0002363D1 /* CorousalViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorousalViewCollectionViewCell.swift; sourceTree = "<group>"; };
 		39325B0728377E1A002363D1 /* Shop.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shop.storyboard; sourceTree = "<group>"; };
 		39325B0A283780D2002363D1 /* ShopTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTabBarController.swift; sourceTree = "<group>"; };
+		39645968283FF79E00601A17 /* EpisodesDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesDetailVC.swift; sourceTree = "<group>"; };
+		3964596A28410F5000601A17 /* GlobalHomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHomeVM.swift; sourceTree = "<group>"; };
+		3964596C28410FB300601A17 /* Network Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Manager.swift"; sourceTree = "<group>"; };
+		3964596E284111AB00601A17 /* GlobalHomeJsonData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GlobalHomeJsonData.json; sourceTree = "<group>"; };
+		396459702841131400601A17 /* GlobalHomeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHomeDataModel.swift; sourceTree = "<group>"; };
+		3964597228422E0600601A17 /* WatchHomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchHomeVM.swift; sourceTree = "<group>"; };
+		3964597428422E4E00601A17 /* WatchHomeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchHomeDataModel.swift; sourceTree = "<group>"; };
+		3964597C2843CE6600601A17 /* SeasonsCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeasonsCVCell.xib; sourceTree = "<group>"; };
+		3964597E2843CEAD00601A17 /* SeasonsCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsCVCell.swift; sourceTree = "<group>"; };
+		396459802843E12500601A17 /* ReUsableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReUsableView.swift; sourceTree = "<group>"; };
+		396459822843E19900601A17 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		396459842843E35B00601A17 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		39A977AD28450DA200414FA3 /* EpisodeDetailsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailsVM.swift; sourceTree = "<group>"; };
+		39A977AF28450DB000414FA3 /* EpisodeDetailsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailsDataModel.swift; sourceTree = "<group>"; };
+		39A977B42845420200414FA3 /* brandon-grotesque-black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "brandon-grotesque-black.ttf"; sourceTree = "<group>"; };
+		39A977B52845421700414FA3 /* brandon-grotesque-bold-italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "brandon-grotesque-bold-italic.ttf"; sourceTree = "<group>"; };
+		39A977B62845422200414FA3 /* brandon-grotesque-medium-italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "brandon-grotesque-medium-italic.ttf"; sourceTree = "<group>"; };
+		39AD38F628468A5C0053CBA7 /* EpisodeDetailsJsonData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EpisodeDetailsJsonData.json; sourceTree = "<group>"; };
+		39AD38F82846A2150053CBA7 /* WatchHomeJsonFile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WatchHomeJsonFile.json; sourceTree = "<group>"; };
 		39C7EF90283BCC1C00113591 /* Watch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Watch.storyboard; sourceTree = "<group>"; };
 		39C7EF93283BD79800113591 /* WatchTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTabBarController.swift; sourceTree = "<group>"; };
 		39C7EF96283BD90A00113591 /* WatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +91,10 @@
 		39C7EFA4283BED4600113591 /* EpisodesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesTableViewCell.swift; sourceTree = "<group>"; };
 		39C7EFAE283BF07C00113591 /* EpisodeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCollectionViewCell.swift; sourceTree = "<group>"; };
 		39C7EFB2283BF17900113591 /* EpisodeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeCollectionViewCell.xib; sourceTree = "<group>"; };
+		39E345762845DABE0034927A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3D9AC734FD0DEC4BE1D57A7C /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.debug.xcconfig"; path = "Target Support Files/Pods-Sample/Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		4F7096F4986E3F1AA2917534 /* Pods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8927C75FB4B4AA0BC01F75C /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.release.xcconfig"; path = "Target Support Files/Pods-Sample/Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963CA5CC5CD25CD8D5D6D039 /* Pods_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,8 +112,8 @@
 		3906E2C3283EA3640035CD72 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				39325AFC28369E2D002363D1 /* VerticalsTableViewCell.swift */,
 				39325B032836B8B0002363D1 /* CorousalViewCollectionViewCell.swift */,
+				39325AFC28369E2D002363D1 /* VerticalsTableViewCell.swift */,
 				3906E2C4283EA3980035CD72 /* Watch */,
 			);
 			path = Cells;
@@ -80,9 +122,10 @@
 		3906E2C4283EA3980035CD72 /* Watch */ = {
 			isa = PBXGroup;
 			children = (
-				39C7EFAE283BF07C00113591 /* EpisodeCollectionViewCell.swift */,
 				39C7EF9D283BE3D700113591 /* WatchHeaderCVCell.swift */,
 				39C7EFA4283BED4600113591 /* EpisodesTableViewCell.swift */,
+				39C7EFAE283BF07C00113591 /* EpisodeCollectionViewCell.swift */,
+				3964597E2843CEAD00601A17 /* SeasonsCVCell.swift */,
 			);
 			path = Watch;
 			sourceTree = "<group>";
@@ -92,6 +135,8 @@
 			children = (
 				39325AE3283649C1002363D1 /* Sample */,
 				39325AE2283649C1002363D1 /* Products */,
+				55E1094D76558B79EB5356D5 /* Pods */,
+				D72273E2DA680108CE4B57B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,12 +153,16 @@
 			children = (
 				39325AE4283649C1002363D1 /* AppDelegate.swift */,
 				39325AE6283649C1002363D1 /* SceneDelegate.swift */,
-				39325B0E28378121002363D1 /* Controllers */,
-				39325B0D283780FE002363D1 /* View */,
+				39E345762845DABE0034927A /* Constants.swift */,
+				39325B0E28378121002363D1 /* Magnolia */,
 				3906E2C3283EA3640035CD72 /* Cells */,
+				39325B0D283780FE002363D1 /* View */,
+				3964597B2843C40400601A17 /* Json */,
+				396459862843E4B000601A17 /* Helpers */,
 				39325AF2283649C2002363D1 /* Info.plist */,
 				39325AEF283649C2002363D1 /* LaunchScreen.storyboard */,
 				39325AED283649C2002363D1 /* Assets.xcassets */,
+				39A977B3284541AF00414FA3 /* Fonts */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -127,21 +176,83 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		39325B0E28378121002363D1 /* Controllers */ = {
+		39325B0E28378121002363D1 /* Magnolia */ = {
 			isa = PBXGroup;
 			children = (
-				39325AE8283649C1002363D1 /* MainViewController.swift */,
+				3964597A2843C3EF00601A17 /* GlobalHome */,
 				39C7EFA8283BEE9F00113591 /* Watch */,
 				39C7EFAA283BEEB300113591 /* Shop */,
 			);
-			path = Controllers;
+			path = Magnolia;
+			sourceTree = "<group>";
+		};
+		3964597A2843C3EF00601A17 /* GlobalHome */ = {
+			isa = PBXGroup;
+			children = (
+				396459702841131400601A17 /* GlobalHomeDataModel.swift */,
+				3964596A28410F5000601A17 /* GlobalHomeVM.swift */,
+				39325AE8283649C1002363D1 /* MainViewController.swift */,
+			);
+			path = GlobalHome;
+			sourceTree = "<group>";
+		};
+		3964597B2843C40400601A17 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				3964596E284111AB00601A17 /* GlobalHomeJsonData.json */,
+				39AD38F628468A5C0053CBA7 /* EpisodeDetailsJsonData.json */,
+				39AD38F82846A2150053CBA7 /* WatchHomeJsonFile.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		396459862843E4B000601A17 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3964596C28410FB300601A17 /* Network Manager.swift */,
+				396459802843E12500601A17 /* ReUsableView.swift */,
+				396459842843E35B00601A17 /* UICollectionView.swift */,
+				396459822843E19900601A17 /* UITableView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		39A977B3284541AF00414FA3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				39A977B42845420200414FA3 /* brandon-grotesque-black.ttf */,
+				39A977B52845421700414FA3 /* brandon-grotesque-bold-italic.ttf */,
+				39A977B62845422200414FA3 /* brandon-grotesque-medium-italic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		39AD38F42846797C0053CBA7 /* WatchLanding */ = {
+			isa = PBXGroup;
+			children = (
+				3964597428422E4E00601A17 /* WatchHomeDataModel.swift */,
+				3964597228422E0600601A17 /* WatchHomeVM.swift */,
+				39C7EF96283BD90A00113591 /* WatchViewController.swift */,
+			);
+			path = WatchLanding;
+			sourceTree = "<group>";
+		};
+		39AD38F52846798C0053CBA7 /* EpisodeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				39A977AF28450DB000414FA3 /* EpisodeDetailsDataModel.swift */,
+				39A977AD28450DA200414FA3 /* EpisodeDetailsVM.swift */,
+				39645968283FF79E00601A17 /* EpisodesDetailVC.swift */,
+			);
+			path = EpisodeDetails;
 			sourceTree = "<group>";
 		};
 		39C7EFA8283BEE9F00113591 /* Watch */ = {
 			isa = PBXGroup;
 			children = (
+				39AD38F42846797C0053CBA7 /* WatchLanding */,
+				39AD38F52846798C0053CBA7 /* EpisodeDetails */,
 				39C7EF93283BD79800113591 /* WatchTabBarController.swift */,
-				39C7EF96283BD90A00113591 /* WatchViewController.swift */,
 			);
 			path = Watch;
 			sourceTree = "<group>";
@@ -172,8 +283,26 @@
 				39C7EF9A283BE1EE00113591 /* WatchHeaderCVCell.xib */,
 				39C7EFA1283BED1F00113591 /* EpisodesTableViewCell.xib */,
 				39C7EFB2283BF17900113591 /* EpisodeCollectionViewCell.xib */,
+				3964597C2843CE6600601A17 /* SeasonsCVCell.xib */,
 			);
 			path = xib;
+			sourceTree = "<group>";
+		};
+		55E1094D76558B79EB5356D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D9AC734FD0DEC4BE1D57A7C /* Pods-Sample.debug.xcconfig */,
+				D8927C75FB4B4AA0BC01F75C /* Pods-Sample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D72273E2DA680108CE4B57B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F7096F4986E3F1AA2917534 /* Pods_Sample.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39325AF5283649C2002363D1 /* Build configuration list for PBXNativeTarget "Sample" */;
 			buildPhases = (
+				3A03005F2E4CCBB03D416E3E /* [CP] Check Pods Manifest.lock */,
 				39325ADD283649C1002363D1 /* Sources */,
 				39325ADE283649C1002363D1 /* Frameworks */,
 				39325ADF283649C1002363D1 /* Resources */,
+				1A2AC35B3A410579639F90E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,20 +364,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39AD38F728468A5C0053CBA7 /* EpisodeDetailsJsonData.json in Resources */,
 				39325B0828377E1A002363D1 /* Shop.storyboard in Resources */,
+				3964597D2843CE6600601A17 /* SeasonsCVCell.xib in Resources */,
 				39C7EFA2283BED1F00113591 /* EpisodesTableViewCell.xib in Resources */,
 				39325AF1283649C2002363D1 /* LaunchScreen.storyboard in Resources */,
 				39325B012836AB83002363D1 /* CorousalViewCollectionViewCell.xib in Resources */,
 				39325AEE283649C2002363D1 /* Assets.xcassets in Resources */,
 				39325AEC283649C1002363D1 /* Main.storyboard in Resources */,
 				39325AFA28369D9B002363D1 /* VerticalsTableViewCell.xib in Resources */,
+				3964596F284111AB00601A17 /* GlobalHomeJsonData.json in Resources */,
 				39C7EF91283BCC1C00113591 /* Watch.storyboard in Resources */,
 				39C7EFB3283BF17900113591 /* EpisodeCollectionViewCell.xib in Resources */,
+				39AD38F92846A2150053CBA7 /* WatchHomeJsonFile.json in Resources */,
 				39C7EF9B283BE1EE00113591 /* WatchHeaderCVCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A2AC35B3A410579639F90E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sample/Pods-Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sample/Pods-Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sample/Pods-Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A03005F2E4CCBB03D416E3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		39325ADD283649C1002363D1 /* Sources */ = {
@@ -254,16 +431,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				39C7EF9E283BE3D700113591 /* WatchHeaderCVCell.swift in Sources */,
+				3964596D28410FB300601A17 /* Network Manager.swift in Sources */,
 				39325AE9283649C1002363D1 /* MainViewController.swift in Sources */,
+				39A977AE28450DA200414FA3 /* EpisodeDetailsVM.swift in Sources */,
 				39C7EF94283BD79800113591 /* WatchTabBarController.swift in Sources */,
 				39C7EF97283BD90A00113591 /* WatchViewController.swift in Sources */,
 				39C7EFAF283BF07C00113591 /* EpisodeCollectionViewCell.swift in Sources */,
+				39645969283FF79E00601A17 /* EpisodesDetailVC.swift in Sources */,
 				39325AE5283649C1002363D1 /* AppDelegate.swift in Sources */,
+				3964596B28410F5000601A17 /* GlobalHomeVM.swift in Sources */,
+				396459852843E35B00601A17 /* UICollectionView.swift in Sources */,
+				3964597528422E4E00601A17 /* WatchHomeDataModel.swift in Sources */,
+				396459812843E12500601A17 /* ReUsableView.swift in Sources */,
 				39325B0B283780D2002363D1 /* ShopTabBarController.swift in Sources */,
 				39325AE7283649C1002363D1 /* SceneDelegate.swift in Sources */,
 				39C7EFA5283BED4600113591 /* EpisodesTableViewCell.swift in Sources */,
 				39325B042836B8B0002363D1 /* CorousalViewCollectionViewCell.swift in Sources */,
+				39A977B028450DB000414FA3 /* EpisodeDetailsDataModel.swift in Sources */,
+				396459712841131400601A17 /* GlobalHomeDataModel.swift in Sources */,
 				39325AFD28369E2D002363D1 /* VerticalsTableViewCell.swift in Sources */,
+				396459832843E19900601A17 /* UITableView.swift in Sources */,
+				3964597F2843CEAD00601A17 /* SeasonsCVCell.swift in Sources */,
+				3964597328422E0600601A17 /* WatchHomeVM.swift in Sources */,
+				39E345772845DABE0034927A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +597,7 @@
 		};
 		39325AF6283649C2002363D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9AC734FD0DEC4BE1D57A7C /* Pods-Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -425,6 +616,7 @@
 		};
 		39325AF7283649C2002363D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8927C75FB4B4AA0BC01F75C /* Pods-Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

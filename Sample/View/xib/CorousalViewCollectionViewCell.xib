@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,46 +17,55 @@
                 <rect key="frame" x="0.0" y="0.0" width="389" height="546"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shop" translatesAutoresizingMaskIntoConstraints="NO" id="y6V-vt-shq">
-                        <rect key="frame" x="0.0" y="0.0" width="389" height="300"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="y6V-vt-shq">
+                        <rect key="frame" x="0.0" y="30" width="389" height="300"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="300" id="ayC-4r-haR"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let Summer Flourish" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zyp-nC-MqO">
-                        <rect key="frame" x="64" y="380" width="261.5" height="32.5"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let Summer Flourish" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Zyp-nC-MqO">
+                        <rect key="frame" x="44.5" y="410" width="300" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="300" id="DP9-c8-0vf"/>
+                            <constraint firstAttribute="height" constant="50" id="aD4-uj-G7h"/>
+                        </constraints>
                         <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="28"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSX-FE-Tmz">
-                        <rect key="frame" x="84.5" y="435.5" width="220" height="30"/>
+                        <rect key="frame" x="84.5" y="483" width="220" height="40"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstAttribute="height" constant="40" id="deo-c6-dIe"/>
                             <constraint firstAttribute="width" constant="220" id="isQ-VZ-Hqt"/>
                         </constraints>
                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="13"/>
-                        <state key="normal" title="SHOP NEW ARRIVALS">
+                        <state key="normal" title="S H O P   N E W   A R R I V A L S">
                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </state>
+                        <connections>
+                            <action selector="shopTapped:" destination="NGV-2S-wzK" eventType="touchUpInside" id="jWI-57-zDg"/>
+                        </connections>
                     </button>
                 </subviews>
-                <color key="backgroundColor" red="0.98823529409999999" green="0.74509803919999995" blue="0.29411764709999999" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                <color key="backgroundColor" red="0.96470588235294119" green="0.95294117647058818" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 <constraints>
                     <constraint firstItem="Zyp-nC-MqO" firstAttribute="top" secondItem="y6V-vt-shq" secondAttribute="bottom" constant="80" id="4qK-MB-xP8"/>
                     <constraint firstItem="gSX-FE-Tmz" firstAttribute="top" secondItem="Zyp-nC-MqO" secondAttribute="bottom" constant="23" id="52t-ou-Hms"/>
                     <constraint firstItem="y6V-vt-shq" firstAttribute="leading" secondItem="ko6-Hz-Bfn" secondAttribute="leading" id="RUK-dU-iBy"/>
                     <constraint firstItem="gSX-FE-Tmz" firstAttribute="centerX" secondItem="ko6-Hz-Bfn" secondAttribute="centerX" id="XZZ-CG-ovP"/>
-                    <constraint firstItem="y6V-vt-shq" firstAttribute="top" secondItem="ko6-Hz-Bfn" secondAttribute="top" id="Xv0-Rr-Ann"/>
+                    <constraint firstItem="y6V-vt-shq" firstAttribute="top" secondItem="ko6-Hz-Bfn" secondAttribute="top" constant="30" id="Xv0-Rr-Ann"/>
                     <constraint firstItem="Zyp-nC-MqO" firstAttribute="centerX" secondItem="ko6-Hz-Bfn" secondAttribute="centerX" id="cmG-tP-aZA"/>
                     <constraint firstAttribute="trailing" secondItem="y6V-vt-shq" secondAttribute="trailing" id="wgx-Wg-nN5"/>
                 </constraints>
             </collectionViewCellContentView>
             <size key="customSize" width="303" height="546"/>
-            <point key="canvasLocation" x="86.231884057971016" y="170.08928571428569"/>
+            <connections>
+                <outlet property="heroCorousalImageView" destination="y6V-vt-shq" id="2Sq-p7-0y7"/>
+                <outlet property="titleLabel" destination="Zyp-nC-MqO" id="iJa-Sc-nxo"/>
+            </connections>
+            <point key="canvasLocation" x="86.231884057971016" y="169.41964285714286"/>
         </collectionViewCell>
     </objects>
-    <resources>
-        <image name="shop" width="612" height="408"/>
-    </resources>
 </document>

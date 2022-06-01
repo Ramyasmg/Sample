@@ -1,0 +1,431 @@
+{
+    "meta": {
+        "apiVersion": "6.13.3",
+        "runtimeEnv": "production",
+        "servedFromCache": true
+    },
+    "data": {
+        "curation": {
+            "type": "curation",
+            "id": "episode-detail-page",
+            "name": "episode-detail",
+            "title": "Growing a Plant Shop",
+            "brand": "magnolia",
+            "platform": "mobile",
+            "route": "episode/be3b6fe4-5146-5c18-a73a-7561771b27ef",
+            "taxonomyPath": "magnolia/episode/:id",
+            "theme": "dark",
+            "packages": [
+                {
+                    "packageType": "episodeAsPackage",
+                    "taxonomyPath": "magnolia/episode/:id",
+                    "options": {
+                        "isSubscribed": false,
+                        "promoTitle": "Unlock More Magnolia With discovery+",
+                        "promoText": "Magnolia Network shows are only available with a discovery+ subscription. Start your 7-day free trial to start watching!",
+                        "ctaText": "Start Your Free Trial",
+                        "ctaLink": "/sign-up",
+                        "legal": "7-day free trial available with subscription. Terms apply.",
+                        "ctaLinkAuthenticated": "https://auth.magnolia.com/product?flow=purchase",
+                        "browserSupportInfo": "Magnolia Network's video player is not supported on this browser. Videos can be played on the Magnolia app.",
+                        "iosAppLink": "https://apps.apple.com/us/app/magnolia-time-well-spent/id1571187540",
+                        "androidAppLink": "https://play.google.com/store/apps/details?id=com.magnolia.android.app"
+                    },
+                    "modules": [],
+                    "items": [
+                        {
+                            "id": "be3b6fe4-5146-5c18-a73a-7561771b27ef",
+                            "contentType": "Episode",
+                            "options": {},
+                            "source": {
+                                "id": "be3b6fe4-5146-5c18-a73a-7561771b27ef",
+                                "type": "Episode",
+                                "brand": "magnolia",
+                                "title": "Growing a Plant Shop",
+                                "description": "With help from Joanna, Mikey collects pots and plants for her first sale.",
+                                "descriptionShort": "With help from Joanna, Mikey collects pots and plants for her first sale.",
+                                "image": {
+                                    "url": "https://res.cloudinary.com/social-upload-prod-home-media-cld/image/upload/s3.wcm.ecis4-media-store/production/ed/e3/7c/b0/99287f67-1544-5a22-9126-a209f1e1fac0.jpg",
+                                    "resolution": {
+                                        "width": 1920,
+                                        "height": 1080
+                                    },
+                                    "cloudinary": {
+                                        "base": "https://res.cloudinary.com/social-upload-prod-home-media-cld/image/upload/",
+                                        "path": "s3.wcm.ecis4-media-store/production/ed/e3/7c/b0/99287f67-1544-5a22-9126-a209f1e1fac0.jpg"
+                                    },
+                                    "altText": null,
+                                    "align": null,
+                                    "sizemode": null,
+                                    "type": null,
+                                    "format": null
+                                },
+                                "number": "1",
+                                "seasonNumber": "1",
+                                "tvRating": "TV-G",
+                                "nextEpisode": {
+                                    "id": "c89e5d6f-76c2-54fd-8167-9bbf189373b6",
+                                    "type": "Episode",
+                                    "brand": "magnolia",
+                                    "title": "Growing Pains",
+                                    "description": "Mikey and Joanna plan a special event to grow Ferny's business.",
+                                    "descriptionShort": "Mikey and Joanna plan a special event to grow Ferny's business.",
+                                    "image": null,
+                                    "number": "2",
+                                    "seasonNumber": "1",
+                                    "tvRating": "TV-G",
+                                    "nextEpisode": null,
+                                    "isLastInSeason": null,
+                                    "isLastInShow": null,
+                                    "show": {
+                                        "id": "b02f4fc6-a632-487c-a98d-0a217cbe2241",
+                                        "type": "Show",
+                                        "brand": "magnolia",
+                                        "title": "The Retro Plant Shop with Mikey and Jo",
+                                        "description": "",
+                                        "descriptionShort": "",
+                                        "category": "",
+                                        "image": null,
+                                        "showImages": {
+                                            "logo": null,
+                                            "promoOffCenter": null,
+                                            "promoCenter": null,
+                                            "chipHorizontal": null,
+                                            "chipVertical": null
+                                        },
+                                        "dispName": "Show",
+                                        "seasons": [],
+                                        "talents": [],
+                                        "kicker": "",
+                                        "trailer": null,
+                                        "relatedAssets": [],
+                                        "nextUserEpisode": null,
+                                        "watchState": "Start Watching",
+                                        "path": "/watch/show/b02f4fc6-a632-487c-a98d-0a217cbe2241/the-retro-plant-shop-with-mikey-and-jo/",
+                                        "slug": "/watch/show/b02f4fc6-a632-487c-a98d-0a217cbe2241/the-retro-plant-shop-with-mikey-and-jo/",
+                                        "saveId": null,
+                                        "collectionTitle": null,
+                                        "linkPosition": null,
+                                        "cta": null
+                                    },
+                                    "video": null,
+                                    "originalAirTime": null,
+                                    "talents": [],
+                                    "relatedAssets": [],
+                                    "progress": {
+                                        "timecode": null,
+                                        "timestamp": null
+                                    },
+                                    "durationWatched": {
+                                        "seconds": 0,
+                                        "formatted": "0m",
+                                        "formattedRemaining": "0m left"
+                                    },
+                                    "duration": null,
+                                    "path": "/watch/show/b02f4fc6-a632-487c-a98d-0a217cbe2241/the-retro-plant-shop-with-mikey-and-jo/episode/c89e5d6f-76c2-54fd-8167-9bbf189373b6/growing-pains/",
+                                    "slug": "/watch/show/b02f4fc6-a632-487c-a98d-0a217cbe2241/the-retro-plant-shop-with-mikey-and-jo/episode/c89e5d6f-76c2-54fd-8167-9bbf189373b6/growing-pains/",
+                                    "cta": null,
+                                    "collectionTitle": null,
+                                    "linkPosition": null
+                                },
+                                "isLastInSeason": false,
+                                "isLastInShow": false,
+                                "show": {
+                                    "id": "b02f4fc6-a632-487c-a98d-0a217cbe2241",
+                                    "type": "Show",
+                                    "brand": "magnolia",
+                                    "title": "The Retro Plant Shop with Mikey and Jo",
+                                    "description": "",
+                                    "descriptionShort": "",
+                                    "category": "",
+                                    "image": null,
+                                    "showImages": {
+                                        "logo": null,
+                                        "promoOffCenter": null,
+                                        "promoCenter": null,
+                                        "chipHorizontal": null,
+                                        "chipVertical": null
+                                    },
+                                    "dispName": "Show",
+                                    "seasons": [
+                                        {
+                                            "id": "1",
+                                            "number": "1",
+                                            "episodes": [
+                                                {
+                                                    "id": "be3b6fe4-5146-5c18-a73a-7561771b27ef",
+                                                    "type": "Episode",
+                                                    "brand": "magnolia",
+                                                    "title": "Growing a Plant Shop",
+                                                    "description": "With help from Joanna, Mikey collects pots and plants for her first sale.",
+                                                    "descriptionShort": "With help from Joanna, Mikey collects pots and plants for her first sale.",
+                                                    "image": {
+                                                        "url": "https://res.cloudinary.com/social-upload-prod-home-media-cld/image/upload/s3.wcm.ecis4-media-store/production/ed/e3/7c/b0/99287f67-1544-5a22-9126-a209f1e1fac0.jpg",
+                                                        "resolution": {
+                                                            "width": 1920,
+                                                            "height": 1080
+                                                        },
+                                                        "cloudinary": {
+                                                            "base": "https://res.cloudinary.com/social-upload-prod-home-media-cld/image/upload/",
+                                                            "path": "s3.wcm.ecis4-media-store/production/ed/e3/7c/b0/99287f67-1544-5a22-9126-a209f1e1fac0.jpg"
+                                                        },
+                                                        "altText": null,
+                                                        "align": null,
+                                                        "sizemode": null,
+                                                        "type": null,
+                                                        "format": null
+                                                    },
+                                                    "number": "1",
+                                                    "seasonNumber": "1",
+                                                    "tvRating": "TV-G",
+                                                    "nextEpisode": null,
+                                                    "isLastInSeason": null,
+                                                    "isLastInShow": null,
+                                                    "show": null,
+                                                    "video": {
+                                                        "playbackUrl": null,
+                                                        "playbackId": "be3b6fe4-5146-5c18-a73a-7561771b27ef",
+                                                        "duration": {
+                                                            "seconds": 1465,
+                                                            "formatted": "24m"
+                                                        },
+                                                        "rating": null,
+                                                        "previewUrl": null,
+                                                        "poster": null,
+                                                        "id": "ede37cb0-2e7c-5d8d-9383-cf3d079b8d02",
+                                                        "tier": "premium"
+                                                    },
+                                                    "originalAirTime": null,
+                                                    "talents": [],
+                                                    "relatedAssets": [],
+                                                    "progress": null,
+                                                    "durationWatched": null,
+                                                    "duration": {
+                                                        "seconds": 1465,
+                                                        "formatted": "24:25"
+                                                    },
+                                                    "path": "/watch/show/b02f4fc6-a632-487c-a98d-0a217cbe2241/the-retro-plant-shop-with-mikey-and-jo/episode/be3b6fe4-5146-5c18-a73a-7561771b27ef/growing-a-plant-shop/",
+                                                    "slug": "/watch/show/b02f4fc6-a632-487c-a98d-0a217cbe2241/the-retro-plant-shop-with-mikey-and-jo/episode/be3b6fe4-5146-5c18-a73a-7561771b27ef/growing-a-plant-shop/",
+                                                    "cta": null,
+                                                    "collectionTitle": null,
+                                                    "linkPosition": null
+                                                },
+                                                {
+                                                    "id": "c89e5d6f-76c2-54fd-8167-9bbf189373b6",
+                                                    "type": "Episode",
+                                                    "brand": "magnolia",
+                                                    "title": "Growing Pains",
+                                                    "description": "Mikey and Joanna plan a special event to grow Ferny's business.",
+                                                    "descriptionShort": "Mikey and Joanna plan a special event to grow Ferny's business.",
+                                                    "image": {
+                                                        "url": "https://res.cloudinary.com/social-upload-prod-home-media-cld/image/upload/s3.wcm.ecis4-media-store/production/a0/8f/a5/00/30d63212-7728-55ce-a984-555a7726ed49.jpg",
+                                                        "resolution": {
+                                                            "width": 1920,
+                                                            "height": 1080
+                                                        },
+                                                        "cloudinary": {
+                                                            "base": "https://res.cloudinary.com/social-upload-prod-home-media-cld/image/upload/",
+                                                            "path": "s3.wcm.ecis4-media-store/production/a0/8f/a5/00/30d63212-7728-55ce-a984-555a7726ed49.jpg"
+                                                        },
+                                                        "altText": null,
+                                                        "align": null,
+                                                        "sizemode": null,
+                                                        "type": null,
+                                                        "format": null
+                                                    },
+                                                    "number": "2",
+                                                    "seasonNumber": "1",
+                                                    "tvRating": "TV-G",
+                                                    "nextEpisode": null,
+                                                    "isLastInSeason": null,
+                                                    "isLastInShow": null,
+                                                    "show": null,
+                                                    "video": {
+                                                        "playbackUrl": null,
+                                                        "playbackId": "c89e5d6f-76c2-54fd-8167-9bbf189373b6",
+                                                        "duration": {
+                                                            "seconds": 1466,
+                                                            "formatted": "24m"
+                                                        },
+                                                        "rating": null,
+                                                        "previewUrl": null,
+                                                        "poster": null,
+                                                        "id": "a08fa500-582d-57f4-aad4-dccf13dc2df1",
+                                                        "tier": "premium"
+                                                    },
+                                                    "originalAirTime": null,
+                                                    "talents": [],
+                                                    "relatedAssets": [],
+                                                    "progress": null,
+                                                    "durationWatched": null,
+                                                    "duration": {
+                                                        "seconds": 1466,
+                                                        "formatted": "24:26"
+                                                    },
+                                                    "path": "/watch/show/b02f4fc6-a632-487c-a98d-0a217cbe2241/the-retro-plant-shop-with-mikey-and-jo/episode/c89e5d6f-76c2-54fd-8167-9bbf189373b6/growing-pains/",
+                                                    "slug": "/watch/show/b02f4fc6-a632-487c-a98d-0a217cbe2241/the-retro-plant-shop-with-mikey-and-jo/episode/c89e5d6f-76c2-54fd-8167-9bbf189373b6/growing-pains/",
+                                                    "cta": null,
+                                                    "collectionTitle": null,
+                                                    "linkPosition": null
+                                                },
+                                                {
+                                                    "id": "94df98b5-4003-5f4e-9ffc-a2e6f13d562e",
+                                                    "type": "Episode",
+                                                    "brand": "magnolia",
+                                                    "title": "Retro Plant Shop S1 Trailer",
+                                                    "description": "In this new series, Mikey McCall and Joanna Gaines open a retro plant shop.",
+                                                    "descriptionShort": "In this new series, Mikey McCall and Joanna Gaines open a retro plant shop.",
+                                                    "image": {
+                                                        "url": "https://res.cloudinary.com/social-upload-prod-home-media-cld/image/upload/s3.wcm.ecis4-media-store/production/92/79/fd/92/2ce3fb61-e4c8-52d8-965c-3ba75f59fa4f.jpg",
+                                                        "resolution": {
+                                                            "width": 1920,
+                                                            "height": 1080
+                                                        },
+                                                        "cloudinary": {
+                                                            "base": "https://res.cloudinary.com/social-upload-prod-home-media-cld/image/upload/",
+                                                            "path": "s3.wcm.ecis4-media-store/production/92/79/fd/92/2ce3fb61-e4c8-52d8-965c-3ba75f59fa4f.jpg"
+                                                        },
+                                                        "altText": null,
+                                                        "align": null,
+                                                        "sizemode": null,
+                                                        "type": null,
+                                                        "format": null
+                                                    },
+                                                    "number": "101",
+                                                    "seasonNumber": "1",
+                                                    "tvRating": "TV-G",
+                                                    "nextEpisode": null,
+                                                    "isLastInSeason": null,
+                                                    "isLastInShow": null,
+                                                    "show": null,
+                                                    "video": {
+                                                        "playbackUrl": null,
+                                                        "playbackId": "94df98b5-4003-5f4e-9ffc-a2e6f13d562e",
+                                                        "duration": {
+                                                            "seconds": 67,
+                                                            "formatted": "1m"
+                                                        },
+                                                        "rating": null,
+                                                        "previewUrl": null,
+                                                        "poster": null,
+                                                        "id": "9279fd92-1b91-50c3-a317-98f95af1f319",
+                                                        "tier": "premium"
+                                                    },
+                                                    "originalAirTime": null,
+                                                    "talents": [],
+                                                    "relatedAssets": [],
+                                                    "progress": null,
+                                                    "durationWatched": null,
+                                                    "duration": {
+                                                        "seconds": 67,
+                                                        "formatted": "01:07"
+                                                    },
+                                                    "path": "/watch/show/b02f4fc6-a632-487c-a98d-0a217cbe2241/the-retro-plant-shop-with-mikey-and-jo/episode/94df98b5-4003-5f4e-9ffc-a2e6f13d562e/retro-plant-shop-s1-trailer/",
+                                                    "slug": "/watch/show/b02f4fc6-a632-487c-a98d-0a217cbe2241/the-retro-plant-shop-with-mikey-and-jo/episode/94df98b5-4003-5f4e-9ffc-a2e6f13d562e/retro-plant-shop-s1-trailer/",
+                                                    "cta": null,
+                                                    "collectionTitle": null,
+                                                    "linkPosition": null
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "talents": [
+                                        {
+                                            "id": "13fe0210-cd34-11ec-8f06-395f7dcdffdc",
+                                            "type": "Profile",
+                                            "brand": "magnolia",
+                                            "title": "Mikey McCall",
+                                            "description": null,
+                                            "descriptionShort": null,
+                                            "image": null,
+                                            "path": "/watch/talent/13fe0210-cd34-11ec-8f06-395f7dcdffdc/mikey-mccall/",
+                                            "slug": "/watch/talent/13fe0210-cd34-11ec-8f06-395f7dcdffdc/mikey-mccall/",
+                                            "cta": null
+                                        }
+                                    ],
+                                    "kicker": "",
+                                    "trailer": null,
+                                    "relatedAssets": [],
+                                    "nextUserEpisode": null,
+                                    "watchState": "Start Watching",
+                                    "path": "/watch/show/b02f4fc6-a632-487c-a98d-0a217cbe2241/the-retro-plant-shop-with-mikey-and-jo/",
+                                    "slug": "/watch/show/b02f4fc6-a632-487c-a98d-0a217cbe2241/the-retro-plant-shop-with-mikey-and-jo/",
+                                    "saveId": null,
+                                    "collectionTitle": null,
+                                    "linkPosition": null,
+                                    "cta": null
+                                },
+                                "video": {
+                                    "playbackUrl": null,
+                                    "playbackId": "be3b6fe4-5146-5c18-a73a-7561771b27ef",
+                                    "duration": {
+                                        "seconds": 1465,
+                                        "formatted": "24m"
+                                    },
+                                    "rating": null,
+                                    "previewUrl": null,
+                                    "poster": null,
+                                    "id": "ede37cb0-2e7c-5d8d-9383-cf3d079b8d02",
+                                    "tier": "premium"
+                                },
+                                "originalAirTime": null,
+                                "talents": [
+                                    {
+                                        "id": "13fe0210-cd34-11ec-8f06-395f7dcdffdc",
+                                        "type": "Profile",
+                                        "brand": "magnolia",
+                                        "title": "Mikey McCall",
+                                        "description": null,
+                                        "descriptionShort": null,
+                                        "image": null,
+                                        "path": "/watch/talent/13fe0210-cd34-11ec-8f06-395f7dcdffdc/mikey-mccall/",
+                                        "slug": "/watch/talent/13fe0210-cd34-11ec-8f06-395f7dcdffdc/mikey-mccall/",
+                                        "cta": null
+                                    }
+                                ],
+                                "relatedAssets": [],
+                                "progress": null,
+                                "durationWatched": null,
+                                "duration": {
+                                    "seconds": 1465,
+                                    "formatted": "24:25"
+                                },
+                                "path": "/watch/show/b02f4fc6-a632-487c-a98d-0a217cbe2241/the-retro-plant-shop-with-mikey-and-jo/episode/be3b6fe4-5146-5c18-a73a-7561771b27ef/growing-a-plant-shop/",
+                                "slug": "/watch/show/b02f4fc6-a632-487c-a98d-0a217cbe2241/the-retro-plant-shop-with-mikey-and-jo/episode/be3b6fe4-5146-5c18-a73a-7561771b27ef/growing-a-plant-shop/",
+                                "cta": null,
+                                "collectionTitle": null,
+                                "linkPosition": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "description": "With help from Joanna, Mikey collects pots and plants for her first sale.",
+            "seoMetaTags": {
+                "title": "Growing a Plant Shop Episode - Magnolia",
+                "description": "With help from Joanna, Mikey collects pots and plants for her first sale.",
+                "og:title": "Growing a Plant Shop",
+                "og:description": "With help from Joanna, Mikey collects pots and plants for her first sale.",
+                "og:image": "https://res.cloudinary.com/social-upload-prod-home-media-cld/image/upload/w_1200,h_630,f_auto,c_fill/s3.wcm.ecis4-media-store/production/ed/e3/7c/b0/99287f67-1544-5a22-9126-a209f1e1fac0.jpg",
+                "path": "/watch/show/b02f4fc6-a632-487c-a98d-0a217cbe2241/the-retro-plant-shop-with-mikey-and-jo/episode/be3b6fe4-5146-5c18-a73a-7561771b27ef/growing-a-plant-shop/"
+            },
+            "breadcrumbs": [
+                {
+                    "id": "watch",
+                    "title": "Watch",
+                    "url": "/watch/"
+                },
+                {
+                    "id": "shows",
+                    "title": "Shows",
+                    "url": "/watch/shows/all/"
+                },
+                {
+                    "id": "episode",
+                    "title": "The Retro Plant Shop with Mikey and Jo",
+                    "url": "/watch/show/b02f4fc6-a632-487c-a98d-0a217cbe2241/the-retro-plant-shop-with-mikey-and-jo/"
+                }
+            ]
+        }
+    }
+}

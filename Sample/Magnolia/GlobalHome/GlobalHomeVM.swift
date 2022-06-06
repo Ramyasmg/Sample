@@ -22,7 +22,7 @@ class GlobalHomeVM {
     private var verticalsImagesDictionary = NSCache<NSString, NSData>()
     
     private func readJsonFile() -> GlobalHomeData? {
-        guard  let data = networkManager.readLocalFile(forName: "GlobalHomeJsonData") else { return nil }
+        guard  let data = networkManager.readLocalFile(forName: JsonFiles.GlobalHomeJsonData.rawValue) else { return nil }
         let decodedData = try? JSONDecoder().decode(GlobalHomeData.self,
                                                     from: data)
         if let decodedData = decodedData {

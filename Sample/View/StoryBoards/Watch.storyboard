@@ -53,10 +53,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="1784"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hUC-Ry-kf1" userLabel="ContentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2770"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2500"/>
                                         <subviews>
                                             <containerView hidden="YES" opaque="NO" contentMode="scaleToFill" id="8R3-eJ-XgF">
-                                                <rect key="frame" x="0.0" y="1022" width="414" height="1657"/>
+                                                <rect key="frame" x="0.0" y="752" width="414" height="1657"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </containerView>
@@ -75,14 +75,14 @@
                                                 <cells/>
                                             </collectionView>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TCf-s2-ZfE">
-                                                <rect key="frame" x="0.0" y="605" width="414" height="2165"/>
+                                                <rect key="frame" x="0.0" y="605" width="414" height="1895"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </tableView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="pTb-Ok-MMC" firstAttribute="top" secondItem="hUC-Ry-kf1" secondAttribute="top" id="1Cp-3v-WRg"/>
-                                            <constraint firstAttribute="height" constant="2770" id="OEe-FM-kvh"/>
+                                            <constraint firstAttribute="height" constant="2500" id="OEe-FM-kvh"/>
                                             <constraint firstAttribute="bottom" secondItem="TCf-s2-ZfE" secondAttribute="bottom" id="ShD-Ra-hgO"/>
                                             <constraint firstAttribute="trailing" secondItem="pTb-Ok-MMC" secondAttribute="trailing" id="TRx-DK-agD"/>
                                             <constraint firstItem="TCf-s2-ZfE" firstAttribute="top" secondItem="pTb-Ok-MMC" secondAttribute="bottom" constant="5" id="V07-SD-C5l"/>

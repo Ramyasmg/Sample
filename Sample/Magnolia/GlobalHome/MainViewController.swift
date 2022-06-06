@@ -24,28 +24,27 @@ final class ViewController: UIViewController {
     }
     
     func fetchHeroCorousalsData() {
-        globalHomeVM.fetchHeroCorousalData { sucess in
+        globalHomeVM.fetchHeroCorousalData { [weak self] sucess in
             if sucess {
                 DispatchQueue.main.async {
-                    self.corousalviewCollectionView.delegate = self
-                    self.corousalviewCollectionView.dataSource = self
-                    self.corousalviewCollectionView.register(cell: CorousalViewCollectionViewCell.self)
-                    self.corousalviewCollectionView.reloadData()
-                    self.timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(self.slideToNext), userInfo: nil, repeats: true)
+                    self?.corousalviewCollectionView.delegate = self
+                    self?.corousalviewCollectionView.dataSource = self
+                    self?.corousalviewCollectionView.register(cell: CorousalViewCollectionViewCell.self)
+                    self?.corousalviewCollectionView.reloadData()
+                    self?.timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(self?.slideToNext), userInfo: nil, repeats: true)
                 }
             }
         }
     }
     
     func fetchVerticalsData() {
-        print("pppppp")
-        globalHomeVM.fetchVerticalsData { sucess in
+       
+        globalHomeVM.fetchVerticalsData { [weak self] sucess in
             if sucess {
                 DispatchQueue.main.async {
-                    print("pppppp")
-                    self.verticalsTableView.delegate = self
-                    self.verticalsTableView.dataSource = self
-                    self.verticalsTableView.register(cell: VerticalsTableViewCell.self)
+                    self?.verticalsTableView.delegate = self
+                    self?.verticalsTableView.dataSource = self
+                    self?.verticalsTableView.register(cell: VerticalsTableViewCell.self)
                 }
             }
         }

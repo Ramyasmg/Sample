@@ -17,7 +17,7 @@ class EpisodeDetailVM {
     var episodesShelfData: [EpisodeDetailShelfData] = []
     
     private func readEpisodeDetailsJson() -> EpisodeDetailsData? {
-        guard  let data = networkManager.readLocalFile(forName: "EpisodeDetailsJsonData") else {
+        guard  let data = networkManager.readLocalFile(forName: JsonFiles.EpisodeDetailsJsonData.rawValue) else {
             print("error in reading json")
             return  nil }
         let decodedData = try? JSONDecoder().decode(EpisodeDetailsData.self,

@@ -25,7 +25,7 @@ enum StoryBoardIdentifier: String {
 }
 
 enum UrlString: String {
-    case videoUrl = "https://dplus-northamerica-cloudfront-s3.prod-vod.h264.io/158b/3aba/8589/e2389659-27ec-4237-bbb6-2869d83e6664/ts-raw/x-discovery-token=Expires=1654160177&KeyName=primary&Signature=myjORRftUi0EEGLMsqEiNCuhlrI/master.m3u8"
+    case videoUrl = "https://dplus-northamerica-cloudfront-s3.prod-vod.h264.io/4658/7b8c/1d99/464b168b-e436-40d9-ad14-0c907a87cfa6/ts-raw/x-discovery-token=Expires=1654331935&KeyName=primary&Signature=yOBB4JrsHuboR908-JqpBq_xa7c/master.m3u8"
 }
 
 enum FontsEnum: String {
@@ -52,3 +52,13 @@ enum ImageLiteralsEnum: String {
 enum NavBarTitleEnum: String {
     case title = "M A G N O L I A"
 }
+
+
+enum JsonFiles: String {
+    case GlobalHomeJsonData = "GlobalHomeJsonData"
+    case WatchHomeJsonFile = "WatchHomeJsonFile"
+    case EpisodeDetailsJsonData = "EpisodeDetailsJsonData"
+}
+
+
+//https://dplus-northamerica-cloudfront-s3.prod-vod.h264.io/4658/7b8c/1d99/464b168b-e436-40d9-ad14-0c907a87cfa6/ts-raw/x-discovery-token=Expires=1654331935&KeyName=primary&Signature=yOBB4JrsHuboR908-JqpBq_xa7c/master.m3u8

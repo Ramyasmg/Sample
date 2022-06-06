@@ -22,13 +22,13 @@ final class WatchViewController: UIViewController {
     }
     
     private func fetchHeroCorusalData() {
-        watchHomeVM.fetchHeroCorousalData { sucess in
+        watchHomeVM.fetchHeroCorousalData { [weak self] sucess in
             if sucess {
                 DispatchQueue.main.async {
-                    self.headerCollectionView.delegate = self
-                    self.headerCollectionView.dataSource = self
-                    self.headerCollectionView.register(cell: WatchHeaderCVCell.self)
-                    self.headerCollectionView.reloadData()
+                    self?.headerCollectionView.delegate = self
+                    self?.headerCollectionView.dataSource = self
+                    self?.headerCollectionView.register(cell: WatchHeaderCVCell.self)
+                    self?.headerCollectionView.reloadData()
                 }
             }
         }
@@ -36,13 +36,13 @@ final class WatchViewController: UIViewController {
     
     private func fetchShelfData() {
         watchHomeVM.loadShelfData() {
-            success in
+            [weak self] success in
             if success {
                 DispatchQueue.main.async {
-                    self.episodesTableView.delegate = self
-                    self.episodesTableView.dataSource = self
-                    self.episodesTableView.register(cell: EpisodesTableViewCell.self)
-                    self.episodesTableView.reloadData()
+                    self?.episodesTableView.delegate = self
+                    self?.episodesTableView.dataSource = self
+                    self?.episodesTableView.register(cell: EpisodesTableViewCell.self)
+                    self?.episodesTableView.reloadData()
                 }
             }
         }

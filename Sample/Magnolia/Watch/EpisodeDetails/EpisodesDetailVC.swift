@@ -109,6 +109,7 @@ final class EpisodesDetailVC: UIViewController{
         label.text = "00:00"
         label.textColor = .white
         label.font = UIFont.boldSystemFont(ofSize: 14)
+        label.isHidden = true
         return label
     }()
     
@@ -187,8 +188,9 @@ final class EpisodesDetailVC: UIViewController{
         pausePlayButton.isHidden = true
         forwardButton.isHidden = true
         backwardButton.isHidden = true
-        isPlaying = false
+        //isPlaying = false
         videoLengthLabel.isHidden = true
+        currentTimeLabel.isHidden = true
         videoSlider.isHidden = true
         EnterFullScreenButton.isHidden = true
     }
@@ -199,6 +201,7 @@ final class EpisodesDetailVC: UIViewController{
         backwardButton.isHidden = false
         isPlaying = true
         videoLengthLabel.isHidden = false
+        currentTimeLabel.isHidden = false
         videoSlider.isHidden = false
         EnterFullScreenButton.isHidden = false
     }
@@ -216,7 +219,7 @@ final class EpisodesDetailVC: UIViewController{
                 let minutesText = String(format: "%02d", Int(seconds) / 60)
                 videoLengthLabel.text = "\(minutesText):\(secondsText)"
                 
-                pausePlayButton.setImage(UIImage(systemName: ImageLiteralsEnum.pauseSymbol.rawValue), for: .normal)
+                //pausePlayButton.setImage(UIImage(systemName: ImageLiteralsEnum.pauseSymbol.rawValue), for: .normal)
                 
                 let interval = CMTime(value: 1, timescale: 2)
                 player?.addPeriodicTimeObserver(forInterval: interval, queue: DispatchQueue.main, using: { (progressTime) in
@@ -232,16 +235,7 @@ final class EpisodesDetailVC: UIViewController{
                         let durationSeconds = CMTimeGetSeconds(duration)
                         
                         self.videoSlider.value = Float(seconds / durationSeconds)
-                        
-//                        print("\(seconds)----\(durationSeconds)")
-//                        if Int(seconds) == Int(durationSeconds) {
-//                            print("comple")
-//                            self.player?.replaceCurrentItem(with: nil)
-//                            self.playVideo()
-//                        }
-                        
                     }
-                    
                 })
             }
         }
@@ -349,8 +343,6 @@ final class EpisodesDetailVC: UIViewController{
         EnterFullScreenButton.widthAnchor.constraint(equalToConstant: 30).isActive = true
         EnterFullScreenButton.rightAnchor.constraint(equalTo: videoView.rightAnchor,constant: -30).isActive = true
         EnterFullScreenButton.topAnchor.constraint(equalTo: videoView.topAnchor, constant: 20).isActive = true
-        
-  
     }
     
     private func setUpNavBar(episodeTitle: String, showTitle: String) {
@@ -400,7 +392,7 @@ extension EpisodesDetailVC:  UICollectionViewDelegate, UICollectionViewDataSourc
         addControllsContainerView()
         videoSlider.value = 0
         hideVideoControlItems()
-        
+        pausePlayButton.setImage(UIImage(systemName: ImageLiteralsEnum.pauseSymbol.rawValue), for: .normal)
         let data = viewModel.episodesShelfData[indexPath.row]
         let episode = "\(data.seasonEpisodeNumber) . \(data.episodeTitle)"
         updateView(showTitleL: data.showTitle, episodeTitle: episode, description:data.description)

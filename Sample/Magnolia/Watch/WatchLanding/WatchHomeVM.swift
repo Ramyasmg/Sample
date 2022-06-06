@@ -31,7 +31,7 @@ class WatchHomeVM {
     
     
     private func readWatchHomeJson() -> WatchHomeData? {
-        guard  let data = networkManager.readLocalFile(forName: "WatchHomeJsonFile") else { return nil }
+        guard  let data = networkManager.readLocalFile(forName: JsonFiles.WatchHomeJsonFile.rawValue) else { return nil }
         let decodedData = try? JSONDecoder().decode(WatchHomeData.self,
                                                     from: data)
         if let decodedData = decodedData {
